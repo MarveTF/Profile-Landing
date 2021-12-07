@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.list-item {
+  display: inline-block;
+  margin: 5px;
+  padding: 20px;
+}
+
+.nav-bar {
+  color: aliceblue;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(104, 104, 247);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+}
+
+.description {
+  width: 100%;
+  height: 480px;
+  background-color: rgba(245, 245, 245, 0.938);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tittle {
+  padding: 30px;
+  font-size: 50px;
+}
+
+.presentation {
+  padding: 50px;
+  text-align: justify;
+  word-spacing: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.card-body {
+  color: bisque;
+  width: 100%;
+  height: 880px;
+  background-color: rgb(184, 129, 236);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.line {
+  width: 30vw;
+  color: bisque;
+  height: 1px;
+  background-color: bisque;
+  margin: 10px;
+}
+.content {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 20px;
+}
+.p-box-s1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.p-box {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 5px 5px 2px rgba(101, 88, 114, 0.788);
+}
+
+.p-button {
+  width: 100%;
+  background-color: rgba(63, 166, 235, 0.322);
+  color: bisque;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.p-button-v {
+  width: 300px;
+  background-color: rgba(63, 166, 235, 0.322);
+  color: bisque;
+  font-size: 30px;
+  margin: 30px;
+  height: 80px;
+}
+.foot-p {
+  width: 100%;
+  height: 440px;
+  background-color: rgba(39, 1, 70, 0.932);
+  color: bisque;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.foot-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot-t {
+  margin: 10px;
+  padding: 30px;
+}
+.icons-f {
+  margin: 30px;
+  padding: 30px;
+}
+.icon-s {
+  margin: 10px;
+  padding: 5px;
+}
+.foot-e {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(39, 1, 70, 0.932);
+  color: bisque;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
